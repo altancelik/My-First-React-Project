@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from 'react';
+import Category from './Category';
+import Navi from './navi';
+import ProductList from './ProductList';
 
 function App() {
   return (
     <div>
-      <h3>Hello Git için değişiklikler ...</h3>
+      <Navi></Navi>
+      <Category></Category>
+      <ProductList></ProductList>
     </div>
   );
 }
