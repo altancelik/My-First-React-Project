@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h3>Hello değişiklijk...</h3>
+      <h3>Hello Git için değişiklik...</h3>
     </div>
   );
 }
