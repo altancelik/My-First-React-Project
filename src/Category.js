@@ -2,10 +2,13 @@ import React, { Component } from 'react'
 import {ListGroup,ListGroupItem} from 'reactstrap'
 
 export default class Category extends Component {
+    constructor(props){
+        super(props);
+    }
   render() {
     return (
       <div>
-        <h3>CategoryLst</h3>
+        <h3>{this.props.title}</h3>
         <ListGroup>
   <ListGroupItem>
     Cras justo odio
